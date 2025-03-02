@@ -2,21 +2,21 @@
     {
       "title": "CuisineConnect",
       "imageSrc": "/assets/projects/food.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Developed Cuisine Connect, a Swiggy clone using React.js and the Swiggy API for real-time restaurant and menu data.",
       "skills": ["React", "Css", "Node"],
       "source": "https://www.github.com"
     },
     {
       "title": "Netflix Colon",
       "imageSrc": "/assets/projects/download.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Developed a Netflix clone using React and the TMDb API to fetch and display movies dynamically.",
       "skills": ["React", "Express", "Node", "Sass"],
       "source": "https://www.github.com"
     },
     {
       "title": "E commerce",
       "imageSrc": "/assets/projects/ecomm.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Developed an e-commerce website using React with dynamic product listings, filtering, and a responsive UI.",
       "skills": ["React", "Express", "Node"],
       "source": "https://www.github.com"
     }
