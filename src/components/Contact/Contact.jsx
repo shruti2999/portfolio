@@ -1,9 +1,8 @@
 import React from "react";
-
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -12,22 +11,21 @@ const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <img src="/assets/contact/emailIcon.png" alt="Email icon" />
           <a href="mailto:myemail@email.com">shrutikumari9208@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("contact/linkedinIcon.png")}
+            src="/assets/contact/linkedinIcon.png"
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/">linkedin.com/shruti-kumari-29aug</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          <img src="/assets/contact/githubIcon.png" alt="Github icon" />
           <a href="https://www.github.com/shruti2999">github.com/shruti2999</a>
         </li>
       </ul>
     </footer>
   );
 };
-export default Contact;

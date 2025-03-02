@@ -1,21 +1,21 @@
 [
     {
       "title": "CuisineConnect",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "/assets/projects/food.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "skills": ["React", "Css", "Node"],
       "source": "https://www.github.com"
     },
     {
       "title": "Netflix Colon",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "/assets/projects/download.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
       "source": "https://www.github.com"
     },
     {
       "title": "E commerce",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "/assets/projects/ecomm.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "source": "https://www.github.com"

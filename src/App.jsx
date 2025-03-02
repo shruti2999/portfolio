@@ -1,10 +1,11 @@
 import style from './App.module.css';
-import Hero from './components/Hero/Hero';
-import Navbar from './components/Navbar/Navbar';
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
-import Project from './components/Project/Project';
-import Contact from './components/Contact/Contact';
+import {About} from './components/About/About';
+import {Contact} from './components/Contact/Contact';
+import {Experience} from './components/Experience/Experience';
+import {Hero} from './components/Hero/Hero';
+import {Navbar} from './components/Navbar/Navbar';
+import {Projects} from './components/Projects/Projects';
+
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <Hero/>
     <About/>
     <Experience/>
-    <Project/>
+    <Projects/>
     <Contact/>
     </div>
   )
